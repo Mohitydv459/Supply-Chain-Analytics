@@ -18,7 +18,10 @@ The Supply Chain Director reported a rising volume of customer complaints about 
 
 This project seeks to answer key operational questions, support decision-making, and improve logistics performance.
 
----
+
+## 📂 Dataset & Column Description
+**Dataset Link:** [supplychaindataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+**Dataset Description** [DescriptionDataCoSupplyChain.csv](https://github.com/user-attachments/files/24169426/DescriptionDataCoSupplyChain.csv)
 
 ## 🎯 Key Questions Solved
 
@@ -50,7 +53,20 @@ This project seeks to answer key operational questions, support decision-making,
   - **Western Europe**
 - This suggests a need to **reevaluate regional logistics partners or transportation networks** in these areas.
 
----
+## 📊 Dashboard 
+<img width="1419" height="800" alt="Supply Chain Dashboard" src="https://github.com/user-attachments/assets/2892e3b7-d170-4076-8f55-57bf76d3b76d" />
+
+## 🏁 Conclusion
+This project successfully demonstrates how data analytics can be leveraged to solve critical operational inefficiencies. By moving beyond simple descriptive reporting to diagnostic analysis, the dashboard revealed that the company's low 42% On-Time Delivery rate is not a general failure, but a specific issue tied to "Second Class" shipping modes and logistics partners in Latin America.
+
+**The insights generated from this dashboard provide a clear roadmap for the Supply Chain Director to:**
+
+- 1.Renegotiate contracts with "Second Class" carriers.
+
+- 2.Investigate regional logistics hubs in the identified high-risk zones.
+
+- 3.Protect revenue by prioritizing shipping reliability for high-value categories like Fishing and Camping.
+
 
 ## 🛠️ Tech Stack & Workflow
 
@@ -69,6 +85,7 @@ This project seeks to answer key operational questions, support decision-making,
    - Standardize fields for ingestion
 
 2. **Data Warehousing (MySQL)**
+
    - Designed a **Star Schema**
    - Centralized fact & dimension tables (e.g., `Fact_Sales`, `Dim_Product`)
 
@@ -78,6 +95,8 @@ This project seeks to answer key operational questions, support decision-making,
      - `Revenue at Risk`
      - `Late Delivery Risk`
    - Enabled filtering by geography, shipping mode, and product category
+
+
 
 
 
